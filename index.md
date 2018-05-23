@@ -23,10 +23,11 @@ W przyszłości będą tu też odpowiedzi.
 - Różnica pomiędzy '==' i .equals()
 - Do czego służy metoda hashCode() ?
 - Omów interfejsy Comparable i Comparator.
-- Pytanie: (uwaga spoiler) Skoro == porównuje referencje, to dlaczego, taki kod zwraca true? WTF?
+- Pytanie: Skoro == porównuje *referencje* a nie wartości, to dlaczego:
 ```java
-"test" == "test" //returns true
-"test" == new String("test") // False
+"test" == "test" //taki kod zwrca true
+"test" == new String("test") // A taki kod zwraca false?
+new String("test") == new String("test") // I taki też zwraca false?
 
 //WTF? 
 ```
