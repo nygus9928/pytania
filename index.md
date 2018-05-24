@@ -1,7 +1,3 @@
-
-
-
-
 # Pytania na rozmowy kwalifikacyjne
 
 Zamieszczam tutaj pytania z którymi się spotkałem na rozmowach kwalifikacyjnych i na które odpowiedzi warto znać. 
@@ -76,10 +72,6 @@ new String("test") == new String("test") // I taki też zwraca false?
 - Napisz algorytm liczący silnię (bez rekurencji)
 - Napisz algorytm liczący kolejne elementy ciągu Fibonacciego
 - Sprawdź czy liczba jest potęgą 2
-- 
-
-
-
 
 ## SELENIUM i AUTOMATYZACJA
 - Omów jakie znasz rodzaje selektorów. 
@@ -138,15 +130,16 @@ new String("test") == new String("test") // I taki też zwraca false?
 - Z czego się składa adres IP?
 - Co to jest maska podsieci
 - Jak znając maskę podsieci i IP wyliczyć ilość dostępnych adresów w sieci?
-- Ile jest możliwych adresów przy masce 0.0.0.0
+- Ile jest dostępnych adresów przy masce 0.0.0.0
 - Omów ogólnie czego dotyczy model OSI
-#### HTTP
+#### HTTP / REST
 - Czym jest SOAP?
 - Czym jest REST?
 - Jakie znasz metody HTTP?
 - Jak wygląda request i response HTTP?
 - Jaki jest główny podział statusów odpowiedzi HTTP? 
 - Jakie znasz statusy odpowiedzi?
+- Czym chararakteryzują się metody idempotentne? Które są idempotentne, a które nie?
 - Jakiej metody HTTP użyć gdy: 
   - Pobierasz zasób
   - Tworzysz zasób
@@ -154,8 +147,22 @@ new String("test") == new String("test") // I taki też zwraca false?
   - Edytujesz jedno pole w zasobie
 - Czym są Headery i do czego się stosuje? 
 - Jakie znasz Headery? 
-- Omów różnicę pomiędzy autoryzacją, a autentykacją
-- Co to jest Oauth2
+
+
+## BEZPIECZEŃSTWO
+- Jakie znasz rodzaje ataków na serwisy WWW?
+- Co oznacza skrót CORS?
+- Czy Kod JS na stronie może wywołać zapytanie do innej domeny?
+- Czym jest Same Origin policy?
+- Czym się różni autoryzacja od autentykacji?
+- Co to jest OAuth2
+- Czy znasz OWASP?
+- Na czym polegają ataki i jak się przed nimi zabezpieczać:
+  - SQL Injection
+  - XSS
+  - XSRF
+  - SSRF
+  - XXE
 
 ## Inne
 - Jakie znasz skróty klawiszowe w IDE z którym pracujesz?
